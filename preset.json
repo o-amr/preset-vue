@@ -1,25 +1,23 @@
 {
-  "preset-vue": {
-    "useConfigFiles": true,
-    "plugins": {
-      "@vue/cli-plugin-babel": {},
-      "@vue/cli-plugin-typescript": {
-        "classComponent": false,
-        "useTsWithBabel": true
-      },
-      "@vue/cli-plugin-router": {
-        "historyMode": true
-      },
-      "@vue/cli-plugin-vuex": {},
-      "@vue/cli-plugin-eslint": {
-        "config": "airbnb",
-        "lintOn": [
-          "save",
-          "commit"
-        ]
-      }
+  "useConfigFiles": true,
+  "plugins": {
+    "@vue/cli-plugin-babel": {},
+    "@vue/cli-plugin-typescript": {
+      "classComponent": false,
+      "useTsWithBabel": true
     },
-    "vueVersion": "2",
-    "cssPreprocessor": "dart-sass"
-  }
+    "@vue/cli-plugin-router": {
+      "historyMode": true
+    },
+    "@vue/cli-plugin-vuex": {},
+    "@vue/cli-plugin-eslint": {
+      "config": "airbnb",
+      "lintOn": [
+        "save",
+        "commit"
+      ]
+    }
+  },
+  "vueVersion": "2",
+  "cssPreprocessor": "dart-sass"
 }
