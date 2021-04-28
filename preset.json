@@ -16,7 +16,21 @@
         "save",
         "commit"
       ]
-    }
+    },
+    "vue-cli-plugin-vuetify": {
+		  "version": "~2.4.0",
+		  "preset": "configure",
+		  "replaceComponents": true,
+		  "iconFont": "mdi",
+		  "installFonts": true,
+		  "locale": "ru",
+		  "useAlaCarte": true,
+		  "useCustomProperties": false,
+		  "usePolyfill": true,
+		  "useTheme": false,
+		  "useV3": false,
+		  "useVite": false
+		}
   },
   "vueVersion": "2",
   "cssPreprocessor": "dart-sass"
